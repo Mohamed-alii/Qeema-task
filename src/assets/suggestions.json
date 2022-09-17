@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Ebeneser",
+        "id": "8d7476a4-2f20-471b-be70-c28a2cccd16d",
+        "photo": "https://randomuser.me/api/portraits/men/1.jpg",
+        "email": "slongbothom0@myspace.com",
+        "followed": false
+    },
+    {
+        "name": "Herold",
+        "id": "81643306-d739-428f-9380-8ea88e7929ef",
+        "photo": "https://randomuser.me/api/portraits/men/2.jpg",
+        "email": "lbigley1@bloomberg.com",
+        "followed": false
+    },
+    {
+        "name": "Leonidas",
+        "id": "1bd3b615-92ce-4381-97f3-3135db2f99d8",
+        "photo": "https://randomuser.me/api/portraits/men/3.jpg",
+        "email": "pridder2@alexa.com",
+        "followed": false
+    },
+    {
+        "name": "Harwell",
+        "id": "4373ee4c-40ce-49d3-b66a-84b010e3f41d",
+        "photo": "https://randomuser.me/api/portraits/men/4.jpg",
+        "email": "rpettiford3@nbcnews.com",
+        "followed": false
+    },
+    {
+        "name": "Carson",
+        "id": "c1659ea2-3584-4687-8d64-ce2e0304a895",
+        "photo": "https://randomuser.me/api/portraits/men/5.jpg",
+        "email": "bskilton4@dmoz.org",
+        "followed": false
+    },
+    {
+        "name": "Iggy",
+        "id": "8407ae25-09fc-4b4b-8ff2-e011dbbf38a8",
+        "photo": "https://randomuser.me/api/portraits/men/6.jpg",
+        "email": "csivills5@de.vu",
+        "followed": false
+    },
+    {
+        "name": "Dunstan",
+        "id": "ac305769-caab-416b-b641-92334f2bcc39",
+        "photo": "https://randomuser.me/api/portraits/men/7.jpg",
+        "email": "pbeddard6@nih.gov",
+        "followed": false
+    },
+    {
+        "name": "Deana",
+        "id": "958c1a98-d4cc-4e84-9b38-cbf09a494950",
+        "photo": "https://randomuser.me/api/portraits/men/8.jpg",
+        "email": "esturton7@pinterest.com",
+        "followed": false
+    },
+    {
+        "name": "Edith",
+        "id": "4453c708-7e1b-4431-a00b-616d1033d52b",
+        "photo": "https://randomuser.me/api/portraits/men/9.jpg",
+        "email": "hgrayham8@usatoday.com",
+        "followed": false
+    },
+    {
+        "name": "Belita",
+        "id": "7e39c96b-6c4f-4056-93b5-058e90f4863a",
+        "photo": "https://randomuser.me/api/portraits/men/10.jpg",
+        "email": "csimmgen9@eventbrite.com",
+        "followed": false
+    }
+]

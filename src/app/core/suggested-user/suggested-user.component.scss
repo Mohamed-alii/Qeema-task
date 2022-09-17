@@ -1,0 +1,22 @@
+@import '../../../styles/colors';
+
+.suggestedUser-img
+{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.follow-btn
+{
+    background-color: $light_background;
+    border-radius: 11px;
+    color: white;
+}
+
+.followed-btn
+{
+    border: 1px solid $secondary-font;
+    border-radius: 11px;
+    color: $primary-font !important;
+}

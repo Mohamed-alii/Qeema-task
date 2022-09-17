@@ -1,0 +1,5 @@
+
+<div class="stories d-flex overflow-hidden flex-nowrap mt-5 mx-3">
+    <!--this part could be a slider like instagram so the user can see the rest of stories-->
+    <app-story [story]="story" [index]="i" *ngFor="let story of userStories; let i = index"></app-story>
+</div>

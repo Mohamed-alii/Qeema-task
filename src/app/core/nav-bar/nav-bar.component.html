@@ -1,0 +1,41 @@
+<nav class="pl-4 pt-4 d-flex justify-content-between align-items-center d-lg-block px-0">
+    <div class="d-flex mb-3 mt-3">
+        <figure class="logo-container">
+            <img class="logo-img" src="../../../assets/images/logo.png" >
+        </figure>
+        <p class="feed ml-3">c<u>o</u>feed</p>
+    </div>
+    <p class="nav-menu-title d-none d-lg-block">Menu</p>
+    <ul class="unstyle-list d-flex d-lg-block">
+        <li class="nav-list-item d-flex align-items-center">
+            <a class="nav-item-link w-100" [routerLink]="'/home'" [routerLinkActive]="'active'">
+                <fa-icon class="nav-list-icon d-none d-md-inline" [icon]="faHouse"></fa-icon>
+                <span>Home</span>
+            </a>
+        </li>
+        <li class="nav-list-item d-flex align-items-center">
+            <a class="nav-item-link w-100" [routerLink]="'/messages'" [routerLinkActive]="'active'">
+                <fa-icon class="nav-list-icon d-none d-md-inline" [icon]="faCommentDots"></fa-icon>
+                <span>Message</span>
+            </a>
+        </li>
+        <li class="nav-list-item d-flex align-items-center">
+            <a class="nav-item-link w-100" [routerLink]="'/profile'" [routerLinkActive]="'active'">
+                <fa-icon class="nav-list-icon d-none d-md-inline" [icon]="faUser"></fa-icon>
+                <span>Profile</span>
+            </a>
+        </li>
+        <li class="nav-list-item d-flex align-items-center">
+            <a class="nav-item-link w-100" [routerLink]="'/savedposts'" [routerLinkActive]="'active'">
+                <fa-icon class="nav-list-icon d-none d-md-inline" [icon]="faBookmark"></fa-icon>
+                <span>Saved posts</span>
+            </a>
+        </li>
+        <li class="nav-list-item d-flex align-items-center">
+            <a class="nav-item-link w-100"  [routerLink]="'/settings'" [routerLinkActive]="'active'">
+                <fa-icon class="nav-list-icon d-none d-md-inline" [icon]="faGear"></fa-icon>
+                <span>settings</span>
+            </a>
+        </li>
+    </ul>
+  </nav>

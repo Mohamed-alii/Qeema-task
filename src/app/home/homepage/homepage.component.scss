@@ -1,0 +1,12 @@
+@import "../../../styles/colors";
+
+.filter-item {
+  color: $secondary-font;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+
+  &.active {
+    color: $primary-font !important;
+  }
+}

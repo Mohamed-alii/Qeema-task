@@ -1,0 +1,11 @@
+<div class="pt-4">
+  <header class="d-flex align-items-center justify-content-between">
+    <h6 class="m-0 txt-primary">Suggestions For You</h6>
+    <button class="seeAll-btn txt-600 txt-primary-light" (click)="showAllSuggestedUsers()" >see all</button>
+  </header>
+  <div *ngFor="let suggestedUser of suggestedUsers; let i = index">
+    <app-suggested-user *ngIf="i < 3 || showAll"
+      (suggestedUserInfo)="getSuggestedUser($event)" [suggestedUser]="suggestedUser">
+    </app-suggested-user>
+  </div>
+</div>

@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "./styles/colors";
+
+body{
+    background-color: $lighter_background;
+}
+
+.unstyle-list
+{
+    list-style: none;
+    padding: 0;
+}
+
+.txt-primary
+{
+    color: $primary-font;
+}
+
+.txt-secondary
+{
+    color: $secondary-font;
+}
+
+.txt-primary-light
+{
+    color: $light_background;
+}
+
+.txt-600
+{
+    font-weight: 600;
+}

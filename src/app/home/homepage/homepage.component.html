@@ -1,0 +1,15 @@
+<section class="mt-4 mx-3">
+    <div class="d-flex align-items-center mb-4">
+        <h5 class="flex-grow-1 txt-primary text-bold">Feeds</h5>
+        <div>
+            <a [routerLink]="'/home/all'" class="filter-item mx-1" [routerLinkActive]="'active'" >All</a>
+            <a [routerLink]="'/home/following'" class="filter-item mx-1" [routerLinkActive]="'active'" >Following</a>
+            <a [routerLink]="'/home/newest'" class="filter-item mx-1" [routerLinkActive]="'active'" >Newest</a>
+            <a [routerLink]="'/home/popular'" class="filter-item mx-1" [routerLinkActive]="'active'" >Popular</a>
+        </div>
+    </div>
+    <section class="row">
+        <app-feed class="col-md-6" (getFeedId)="storeOrUnstoreLike($event)" [feed]="feed" *ngFor="let feed of feeds" ></app-feed>
+    </section>
+</section>
+

@@ -1,0 +1,14 @@
+<div class="row my-3">
+  <figure class="col-md-2">
+    <img class="suggestedUser-img" [src]="suggestedUser.photo" />
+  </figure>
+  <div class="flex-grow-1 col-md-5">
+    <p class="m-0 txt-600 txt-primary">{{suggestedUser.name}}</p>
+    <p class="m-0 txt-secondary">{{suggestedUser.email | emailTrim}}</p>
+  </div>
+  <div class="col-md-5">
+    <button (click)="followUser(suggestedUser)" class="btn txt-600 w-100" [ngClass]="{'follow-btn': !suggestedUser.followed, 'followed-btn': suggestedUser.followed }">
+        {{suggestedUser.followed ? 'Followed' : "Follow"}}
+      </button>
+  </div>
+</div>

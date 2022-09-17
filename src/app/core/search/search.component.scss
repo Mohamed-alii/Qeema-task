@@ -1,0 +1,45 @@
+@import "../../../styles/colors";
+
+.search {
+
+  .search-bar-wrapper
+  { 
+    border: 1px solid $secondary-font;
+    padding: 0.5rem;
+    border-radius: 25px;
+  }
+
+  .search-bar-input {
+    background-color: transparent;
+    border: none;
+  }
+
+  .search-bar::placeholder
+  {
+    color: $secondary-font;
+    font-weight: 600;
+  }
+
+  .bell-icon
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $secondary-font;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+
+  .cloud-icon
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: $light-blue;
+    border-radius: 50%;
+    padding: 0.8rem;
+  }
+}

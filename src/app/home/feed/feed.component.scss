@@ -1,0 +1,37 @@
+@import '../../../styles/colors';
+
+.feed-img
+{
+    border-radius: 15px;
+}
+
+.feed-user-img
+{
+    width: 50px;
+    height: 50px;
+}
+
+.feed-user-name
+{
+    font-weight: 600;
+}
+
+.feed-icon
+{
+    font-size: 20px;
+    width: 20px;
+    color: #A4B6E1;
+}
+
+.feed-likes , .feed-comments
+{
+    cursor: pointer;
+}
+
+.liked
+{
+    .feed-icon , span
+    {
+        color: $pink !important;
+    }
+}

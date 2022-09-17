@@ -1,0 +1,7 @@
+<figure class="story-img-wrapper mb-3 mr-3">
+    <div *ngIf="index === 0" class="story-img-overflow rounded-circle d-flex justify-content-center align-items-center">
+        <fa-icon class="text-white" [icon]="faPlus"></fa-icon>
+    </div>
+    <img class="rounded-circle story-img" [src]="story.photo" [alt]="story.name">
+    <figcaption class="text-center mt-1">{{story.name}}</figcaption>
+</figure>
